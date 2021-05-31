@@ -3,7 +3,7 @@
     <input
       type="text"
       placeholder="Search pokemon"
-      class="mt-10 p-2 border-blue-200 border-2"
+      class="mt-10 p-2 border-blue-200 border-2 rounded-xl"
       v-model="text"
     />
   </div>
