@@ -10,7 +10,11 @@
 export default {
   name: "Home",
   setup(){
-    fetch("")
+    fetch("https://pokeapi.co/api/v2/pokemon?offset=0")
+    .then((res)=> res.json())
+    .then((data)=> {
+      console.log(data)
+    } )
   }
 };
 </script>
